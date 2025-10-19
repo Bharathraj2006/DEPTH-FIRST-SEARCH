@@ -102,9 +102,10 @@ G F <BR>
 <h3>Sample Output</h3>
 <hr>
 ['0', '1', '2', '3', '4']
-<hr>
-<h3>Program :<h3>
-<hr>
+</hr>
+<h3>Program :</h3>
+
+```
 from collections import deque
 from collections import defaultdict
 def bfs(graph,start,visited,path):
@@ -133,12 +134,10 @@ path = []
 visited = defaultdict(bool)
 traversedpath = bfs(graph,start,visited,path)
 print(traversedpath)
-<hr>
-
+```
 <h3>Output:<h3>
-<hr>
+
 ![alt text](output/image.png)
-<hr>
 
 <h3>Result:</h3>
 <hr>
